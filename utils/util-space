@@ -1,0 +1,2 @@
+#!/bin/bash
+df -h | awk '/sda6/ {print $3 "/" $2}'
